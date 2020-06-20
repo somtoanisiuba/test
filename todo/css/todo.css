@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+    
+}
+header{
+	background-color: white;
+	-webkit-box-shadow: 0 8px 6px -6px #ccc;
+	-moz-box-shadow: 0 8px 6px -6px #ccc;
+	box-shadow: 0 8px 6px -6px #ccc;
+	position: fixed;
+	width: 100%;
+}
+.d-flex{
+    display: flex;
+    }
+.justify-between{
+    justify-content: space-between;
+}
+nav ul{
+	list-style-type: none;
+    padding: 40px;
+    margin-top: 60px;
+  
+}
+nav ul li{
+	display: inline-block;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 25px;
+	transition: 1s all;
+    font-family: monospace;
+    font-size: 3em;
+	
+} 
+nav ul li a.active{
+	color: dodgerblue;	
+} 
+nav ul li a:hover{
+	color: dodgerblue;
+	transition: 1s all;
+} 
+nav ul li a i{
+	margin-right: 5px;
+}
+div.brand{
+    margin: 0px;
+	padding: 0px;
+}
+div.brand a{
+    position: relative;
+    left: 10px;
+    color: dodgerblue;
+    text-decoration: none;
+     font-family: monospace;
+   }
+div.brand img{
+    float: left;
+  width: 300px;
+  height: 250px;
+    margin: 0px;
+	padding: 0px;
+    
+ }
+#topic{
+     color: dodgerblue;
+     font-family: cursive;
+    font-size: 2em;
+     margin-left: 200px;
+   }
+section#start{
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/todo-.png");
+    background-repeat: no-repeat;
+    color:#fff;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+   	background-position: center;
+	padding-top: 30vh;
+	padding-left: 20px;
+	padding-bottom: 20vh
+}
+section#start h1{
+    color: darkblue;
+    font-size: 5em;
+    font-family: cursive;
+}
+section#start input{
+    border: solid black;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 5px;
+    padding: 20px;
+    width: 50%;
+     font-size: 4em;
+    font-family: cursive;    
+ }
+section#start button{
+    cursor: pointer;
+    background-color: red;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid black;
+    width: 10%;
+      font-size: 2em;
+    font-family: cursive;
+    }
+#todos{
+    color: green;
+    font-size: 5em;
+    font-family: cursive;
+   }
+footer{
+	background-color: dodgerblue;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+    font-size: 2em;
+    font-family: sans-serif;
+}

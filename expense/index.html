@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Expense Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" rel="stylesheet" href="css/expense.css">
+    <link type="text/css" rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link type="text/css" rel="stylesheet" href="css/fontawesome/css/brands.css">
+	</head>
+	<body>
+        <header>
+        <div class="d-flex justify-between">
+            <div class="brand">
+             <img src="images/FEMCODE%20AFRICA.png" alt="FemCodeAfrica">
+                
+            <div id="topic">   
+                <a href="../index.html" class="active"> <h1>FemCode StuSuite</h1></a>
+                </div>
+            </div>
+            
+        <div>
+		<nav>
+			<ul>
+              <li>
+                  <a href="index.html" class="active"><i class="fa fa-calculator"></i> Expense Calculator </a>
+				</li>
+                <li>
+					<a href="../todo/index.html"><i class="fa fa-list"></i>Todo list </a>
+				</li>
+                <li>
+					<a href="../book/index.html"><i class="fa fa-book"></i> Find a book </a>
+				</li>
+			</ul>
+		</nav>
+            </div>
+        </div>
+	</header>
+        <section id="start">
+		<h1>Expense Tracker 1.0</h1>
+		<hr>
+		<h2>Total Budget : <span id="totalBudget">0</span></h2>
+		<h2>Current Balance : <span id="currentBalance">0</span></h2>
+		<hr>
+		<h2>Add Money To Budget</h2>
+		<input type="number" id="money" placeholder="add money">
+		<button onclick="addMoney()">Add Money</button>
+		<hr>
+		<h2>Add Expenses</h2>
+		<input type="text" id="expenseName" placeholder="expense name">
+		<input type="number" id="expenseAmount" placeholder="expense amount">
+		<button onclick="addExpense()">Add Expense</button>
+            <hr>
+		<h2>Added Expenses</h2>
+		<div id="addedExpenses">
+			
+		</div>
+            </section>
+		<script src="js/expense.js" type="text/javascript"></script>
+	</body>
+    <footer>
+    <div>
+        &copy; 2020 Designed by Anisiuba Somto | All Right Reserved
+        </div>
+    </footer>
+</html>
